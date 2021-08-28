@@ -23,15 +23,15 @@ body {
 #bday_input {
   width: 100%;
   max-width: 256px;
-  height: 2rem;
+  height: 3rem;
   border: 1px solid;
   outline: none;
   border-radius: 10px;
 }
 #show_btn {
   width: 100%;
-  max-width: 100px;
-  height: 2rem;
+  max-width: 150px;
+  height: 3rem;
   border: 1px solid;
   border-radius: 10px;
   background: transparent;
@@ -39,9 +39,11 @@ body {
 }
 #head {
   margin-bottom: 2rem;
+  font-size: 3rem;
 }
 #output {
   margin: 2rem 0;
+  font-size: 2rem;
 }
 .footer {
     text-align: center;
