@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Josefin Sans', sans-serif;
+  background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+}
+body {
+  display: flex;
+  justify-content: center;
+  padding: 10rem 0;
+}
+#main {
+  min-width: 35rem;
+  text-align: center;
+}
+@media (min-width: 600) {
+  #main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+#bday_input {
+  width: 100%;
+  max-width: 256px;
+  height: 2rem;
+  border: 1px solid;
+  outline: none;
+  border-radius: 10px;
+}
+#show_btn {
+  width: 100%;
+  max-width: 100px;
+  height: 2rem;
+  border: 1px solid;
+  border-radius: 10px;
+  background: transparent;
+  outline: none;
+}
+#head {
+  margin-bottom: 2rem;
+}
+#output {
+  margin: 2rem 0;
+}
+.footer {
+    text-align: center;
+  }
+  .lists {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+  }
+  .list {
+    border: 1px solid rgb(145, 145, 145);
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    margin: 0 1rem;
+    cursor: pointer;
+    box-shadow: 3px 3px 10px #000;
+  }
+  .foot{
+    position: absolute;
+    bottom: 0;
+    left: -20px;
+    width: 100%;
+  }
+  .intro{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    bottom: 0;
+    right: 0;
+    font-weight: 600;
+  }
