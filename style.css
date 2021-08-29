@@ -82,4 +82,14 @@ body {
     .intro{
       display: none;
     }
+    .list{
+      width: 2rem;
+      height: 2rem;
+    }
+    .foot{
+      left: 0;
+    }
+    #show_btn{
+      margin-top: 1rem;
+    }
   }
