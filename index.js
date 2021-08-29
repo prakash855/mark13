@@ -122,10 +122,10 @@ function palindromeHandler(e) {
       year: Number(listOfDate[0]),
     };
     let isPalindrome = checkPalindromeForAllDateFormats(date);
-    if (isPalindrome) output.innerText = "Birthday is Palidrome";
+    if (isPalindrome) output.innerText = "Yay! Your birthday is palindrome!";
     else {
       let [counter, nextDate] = getNextPalindromeDate(date);
-      output.innerText = `The next palindrome date is ${nextDate.day}-${nextDate.month}-${nextDate.year}, you missed it by ${counter} days!`;
+      output.innerText = `The nearest palindrome date is ${nextDate.day}-${nextDate.month}-${nextDate.year}, you missed it by ${counter} days!`;
     }
   }
 }
