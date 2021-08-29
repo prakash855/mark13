@@ -65,8 +65,8 @@ body {
     box-shadow: 3px 3px 10px #000;
   }
   .foot{
-    position: absolute;
-    bottom: 0;
+    position: fixed;
+    bottom: 1rem;
     left: -20px;
     width: 100%;
   }
